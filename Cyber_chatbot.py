@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 # Initialize Groq client with your API key
-client = Groq(api_key="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")
+client = Groq(api_key="your_groq_api_key")
 
 # Set up Streamlit page
 st.set_page_config(page_title="Cybersecurity Assistant", page_icon="🛡")
